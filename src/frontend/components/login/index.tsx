@@ -61,7 +61,7 @@ export const Login: React.FC<LoginProps> = (props) => {
             p="x3"
             width="380px"
             flexGrow={0}
-            display={['none', 'none', 'block']}
+            display={['none', 'none', 'none']}
             position="relative"
           >
             <H2 fontWeight="lighter">{translateLabel('loginWelcome')}</H2>
